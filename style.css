@@ -1,0 +1,138 @@
+/*Header Part*/
+*{
+    margin: 0px;
+    font-family: Arial;
+    border: border-box;
+}
+body{
+    background-color: #242427;
+}
+
+.head-icons{
+    display:inline-flex;
+    margin-top: 15px;
+    justify-content: space-evenly;
+
+}
+.border{
+    border: 1px solid transparent;
+}
+.border:hover{
+    border: 1px solid #606066;
+    border-radius: 10px;
+    background-color: #434039;
+    
+    
+}
+.sidebar-icon{
+    color: #A4A291;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.newchat-icon{
+    color: #A4A291;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-area{
+    height: 40px;
+    width: 40px;
+    color: #A4A291;
+    font-size: 25px;
+    margin-top: 7px;
+    margin-left: 10px;
+
+}
+.down-icon{
+    color: #A4A291;
+    margin-top: 3px;
+    margin-left: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Center part */
+
+.main-part{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+.img-part{
+    background-image:url(chatgpt\ logo.jpg);
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.box{
+    height: 100px;
+    width: 160px;
+    color: #A4A291;
+    border-radius: 10px;
+    border: 0.1px solid rgb(117, 117, 117);
+    display: flex;
+    justify-content: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.box-part{
+    display: flex;
+    justify-content: center;
+}
+
+/*  Footer Part  */
+
+footer{
+    display:flex;
+    justify-content: center;
+}
+.search-box{
+    display: flex;
+    height: 50px;
+    margin-top: 150px;
+    border: 0.1px solid #3a3a3f;
+    border-top-left-radius: 90px;
+    border-bottom-left-radius: 90px;
+    border-top-right-radius: 90px;
+    border-bottom-right-radius: 90px;
+
+}
+.link-icon{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    
+}
+.search-area{
+    width: 558px;
+    color: #85858e;
+    font-size: 2rem;
+    background-color: #242427;
+}
+.box-area{
+    background-color:#242427 ;
+    color: white;
+    font-size: 17px;
+    height: 45px;
+    width: 551px;
+    border: none;
+}
+.up-arrow{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
